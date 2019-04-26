@@ -1,0 +1,65 @@
+.appWrapper {
+  font-family: "Roboto";
+  position: absolute;
+  width: 100vw;
+  height: 100%;
+  background: #00d8d6;
+  z-index: 0;
+  display: grid;
+}
+
+.appWrapper > h1 {
+  font-family: "Poppins";
+  position: absolute;
+  justify-self: center;
+  top: 10vh;
+  letter-spacing: 0.2rem;
+  font-weight: bolder;
+}
+
+.contentWrapper {
+  position: absolute;
+  width: 40vw;
+  height: 50vh;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  background: rgba(255, 63, 52, 0.75);
+  overflow-y: scroll;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.delete {
+  color: #000;
+  width: 4px;
+  height: 4px;
+  float: right;
+}
+
+.delete:hover {
+  cursor: pointer;
+  opacity: 0.4;
+}
+
+.todoList {
+  display: inline-block;
+  text-align: left;
+  width: 35vw;
+  box-sizing: border-box;
+  height: 2rem;
+  letter-spacing: 0.08rem;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+.todoList:hover {
+  cursor: pointer;
+}
+
+.inputForm {
+  position: absolute;
+  left: 50%;
+  top: 80%;
+  transform: translate(-50%);
+}

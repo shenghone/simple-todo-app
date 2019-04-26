@@ -1,0 +1,29 @@
+.modalWrapper {
+  display: grid;
+  position: absolute;
+  width: 30vw;
+  height: 40vh;
+  background: rgb(87, 95, 207);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  border-radius: 4px;
+  align-items: center;
+  justify-items: center;
+}
+
+.closeModal {
+  cursor: pointer;
+  position: absolute;
+  top: 0.2rem;
+  right: 0.5rem;
+}
+
+.buttonsArea {
+  display: inline-block;
+}
+
+.buttonsArea > button {
+  margin: 1rem;
+}
